@@ -3,6 +3,7 @@
 可直接传入图片或视频的url即可。
 示例代码:
  SpeWebImageAndWebVideoLoadView *head = [[SpeWebImageAndWebVideoLoadView alloc]initWithFrame:CGRectMake(10, 10, 40, 80)];
+ 
 head.placeholderImage = [UIImage imageNamed:@"hf.png"];
 
  [head setVideoUrl:[NSURL URLWithString:@"http://mabdev.oss-cn-qingdao.aliyuncs.com/note/1-1454063389277-5a65554e76bd054f99dd0386c9071c06.mp4"]];
